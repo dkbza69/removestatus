@@ -37,7 +37,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["🧬 Proyecto de Umbrella Coorp.", "🧪 Módulo de control y respuesta de Umbrella Coorp."];
+const statusMessages = ["🧬 Proyecto de Umbrella Coorp.", "🧪 Módulo de control y respuesta de Umbrella Coorp.", "👁️ Vigilancia activa 24/7 en nombre de Umbrella Coorp.", "⚠️ Inteligencia artificial operativa. Propiedad de Umbrella Coorp."];
 const statusTypes = [ 'dnd', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
